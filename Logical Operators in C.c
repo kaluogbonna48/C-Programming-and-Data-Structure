@@ -8,6 +8,8 @@
  * when it encounters false condition.
  * || - combines condition and 
  * returns true if any of the two is true. 
+ * || - Will shortcircuit 
+ * when it encounters true condition.
  */
  
 int main() {
